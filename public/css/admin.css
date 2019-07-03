@@ -1,0 +1,190 @@
+html, body {
+    height: 100%;
+}
+
+h1.page-title {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.pagination-wrapper {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #bbbbbb;
+}
+
+.jumbotron {
+    background:#fff;
+}
+
+.error-box {
+    resize: none;
+    width: 100%;
+    min-height: 400px;
+}
+
+.skin-red .main-header .logo { background-color: #1a2226; padding-top:10px; }
+.skin-red .main-header .logo:hover { background-color: #48130d; }
+
+.user-panel > .info { position: relative; left: 0; }
+#chefs-list.table tr td .progress { margin-top: 0; }
+#chef-checklist.todo-list > li .label { font-size: 12px; font-weight: 400; }
+
+@media only screen and (max-width: 992px) {
+    label.service-label{padding-left: 35px;}
+}
+.table-hover>tbody>tr:hover { cursor: pointer; }
+
+input#set-new-button { padding:0; margin:0 0 0 -2px; }
+
+.btn-create { font-size:18px; padding: 0 6px; }
+
+#page-store-registration label.control-label,
+#page-vendor-registration label.control-label { font-weight: 400;}
+.time-to { line-height: 30px; }
+label.timeslot-label { margin-top: 10px; padding-left:35px; margin-bottom:10px;}
+label.phone-label { padding-left:35px; }
+.timeslot-input { margin-bottom:2px; }
+#page-store-registration .jumbotron,
+#page-vendor-registration .jumbotron { padding-top: 0; }
+#page-store-registration .panel { border-radius: 0; }
+#staff-registration-group { float:right; margin-bottom:10px; }
+#input-staff-registration-url { position: absolute; left: -99999999px; }
+.banner { background-color: #3EA7DE; }
+.banner img { margin: 0 auto; }
+
+.pagination-count { text-align: center; }
+
+.white-text, .white-text a { color: white; }
+
+.dl-horizontal dt {
+    height: 30px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+table td {
+    vertical-align: middle !important;
+}
+
+.profile-picture-img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.profile-picture-container {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.picture-actions .btn {
+    margin-left: 5.5555555555% !important;
+}
+
+.navbar-nav > li > a {
+    font-size:20px;
+}
+.main-header .navbar .nav > li > a > .label {
+    font-size: 11px;
+}
+
+.widget-user-image {
+    float: left;
+    margin-top: 14px;
+}
+
+.impersonate-alert {
+    padding: 0 15px;
+    border: 1px solid #e08e0b;
+}
+.impersonate-alert a {
+    color:white;
+    text-decoration: underline;
+}
+.tree {
+    min-height:20px;
+    padding:19px;
+    margin-bottom:20px;
+    background-color:#fbfbfb;
+    border:1px solid #999;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.tree li {
+    list-style-type:none;
+    margin:0;
+    padding:10px 5px 0 5px;
+    position:relative;
+}
+.tree li::before, .tree li::after {
+    content:'';
+    left:-20px;
+    position:absolute;
+    right:auto;
+}
+.tree li::before {
+    border-left:1px solid #999;
+    bottom:50px;
+    height:100%;
+    top:0;
+    width:1px;
+}
+.tree li::after {
+    border-top:1px solid #999;
+    height:20px;
+    top:25px;
+    width:25px;
+}
+.tree li span {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:1px solid #999;
+    border-radius:5px;
+    display:inline-block;
+    padding:3px 8px;
+    text-decoration:none;
+}
+.tree li.parent_li>span {
+    cursor:pointer;
+}
+.tree>ul>li::before, .tree>ul>li::after {
+    border:0;
+}
+.tree li:last-child::before {
+    height:26px;
+}
+.tree li.parent_li>span:hover, .tree li.parent_li>span:hover+ul li span {
+    background:#eee;
+    border:1px solid #94a0b4;
+    color:#000;
+}
+.post-title {
+    margin-top:10px;
+}
+.comment-content {
+    overflow:hidden;
+}
+@media (min-width: 992px) {
+    .navbar-nav > .notifications-menu > .dropdown-menu, .navbar-nav > .messages-menu > .dropdown-menu, .navbar-nav > .tasks-menu > .dropdown-menu {
+        width: 480px;
+    }
+}
+@media (max-width: 767px) {
+    .skin-black .main-header > .logo {
+        background-color: #fcfcfc;
+    }
+    .skin-black .main-header>.logo:hover {
+        background-color: #ddd;
+    }
+}
